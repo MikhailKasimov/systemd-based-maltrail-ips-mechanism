@@ -22,9 +22,9 @@ Save this script in Maltrail's work directory ( e.g. ```/opt/maltrail/maltrail-i
 
 1) ```crontab-way``` on a minute basis:
 
-Open bash-shell terminal and do ```sudo crontab -eu root``` command.
+1a) Open bash-shell terminal and do ```sudo crontab -eu root``` command.
 
-Put ```* * * * * root /opt/maltrail/maltrail-ips.sh``` and save current configuration for ```crontab``` file.
+2a) Put ```* * * * * root /opt/maltrail/maltrail-ips.sh``` and save current configuration for ```crontab``` file.
 
 2) ```systemd-way``` on a minute basis:
 
