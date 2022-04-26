@@ -1,0 +1,11 @@
+[Unit]
+Description=Runs Maltrail IDS/IPS ban-list minutely
+Requires=timers.target
+
+[Timer]
+OnBootSec=1min
+OnUnitInactiveSec=1m
+AccuracySec=1us
+
+[Install]
+WantedBy=timers.target

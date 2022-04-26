@@ -1,0 +1,14 @@
+[Unit]
+Description=Maltrail IPS ban-list service
+Requires=network.target, maltrail-sensor.service maltrail-server.service
+After=network-online.target, maltrail-server.service maltrail-sensor.service
+
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/opt/maltrail
+ExecStart=/opt/maltrail/maltrail-ips.sh
+TimeoutStartSec=30s
+
+[Install]
+WantedBy=multi-user.target
