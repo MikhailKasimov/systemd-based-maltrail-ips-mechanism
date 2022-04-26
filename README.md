@@ -18,7 +18,7 @@ iptables -I INPUT -m set --match-set maltrail src -j DROP
 
 Save this script in Maltrail's work directory ( e.g. ```/opt/maltrail/maltrail-ips.sh```) and make it executable by ```chmod +x /opt/maltrail/maltrail-ips.sh``` command.
 
-- There're two variants of perodically running ```/opt/maltrail/maltrail-ips.sh```
+- There're two variants of periodical running ```/opt/maltrail/maltrail-ips.sh```
 
 1) ```crontab-way``` on a minute basis:
 
