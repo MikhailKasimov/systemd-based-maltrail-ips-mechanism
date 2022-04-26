@@ -30,7 +30,7 @@ Save this script in Maltrail's work directory ( e.g. ```/opt/maltrail/maltrail-i
 
 2a) Download and put ```/maltrail-ips.timer``` and ```maltrail-ips.service``` to ```/etc/systemd/system/``` directory.
 
-2b) Do ```sudo systemctl daemon-reload``` command force systemd service manager to re-read its own configuration.
+2b) Do ```sudo systemctl daemon-reload``` command to force systemd service manager to re-read its own configuration.
 
 2c) Run ```sudo systemctl start maltrail-ips.timer``` and ```sudo systemctl enable maltrail-ips.timer``` commands to have ```/maltrail-ips.timer``` able to automatically start after system gets booted.
 
