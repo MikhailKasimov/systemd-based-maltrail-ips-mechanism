@@ -1,5 +1,5 @@
 [Unit]
-Description=Runs Maltrail IDS/IPS ban-list minutely
+Description=Runs Maltrail's ban-list for ipset/iptables
 Requires=timers.target
 
 [Timer]
