@@ -6,7 +6,7 @@ After=network-online.target, maltrail-server.service maltrail-sensor.service
 [Service]
 Type=oneshot
 User=root
-WorkingDirectory=/opt/maltrail
+WorkingDirectory=/opt/maltrail/
 ExecStart=/opt/maltrail/maltrail-ips.sh
 TimeoutStartSec=30s
 
