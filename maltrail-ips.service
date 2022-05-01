@@ -1,5 +1,5 @@
 [Unit]
-Description=Maltrail IPS ban-list service
+Description=Maltrail's ban-list for ipset/iptables
 Requires=network.target, maltrail-sensor.service maltrail-server.service
 After=network-online.target, maltrail-server.service maltrail-sensor.service
 
