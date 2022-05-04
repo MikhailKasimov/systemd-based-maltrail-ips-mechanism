@@ -1,5 +1,7 @@
 [Unit]
 Description=Runs Maltrail's ban-list for ipset/iptables
+Documentation=https://github.com/stamparm/maltrail#readme
+Documentation=https://github.com/stamparm/maltrail/wiki
 Requires=timers.target
 
 [Timer]
