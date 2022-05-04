@@ -1,5 +1,7 @@
 [Unit]
 Description=Maltrail's ban-list for ipset/iptables
+Documentation=https://github.com/stamparm/maltrail#readme
+Documentation=https://github.com/stamparm/maltrail/wiki
 Requires=network.target, maltrail-sensor.service maltrail-server.service
 After=network-online.target, maltrail-server.service maltrail-sensor.service
 
